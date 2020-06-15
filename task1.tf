@@ -1,3 +1,12 @@
+// Terraform is an open-source infrastructure as code software tool created by HashiCorp. It is a declarative language that uses HCL(HashiCorp Configuration Language).
+// You need to specify which service to invoke and Terraform will connect you to the service provider(AWS, Azure, Docker, Kubernetes) on your behalf.
+// Terraform commands:
+// 		terraform init         --to install the necessary plugins.
+//		terraform apply -auto-approve   --to build the infrastructure.
+//		terraform destroy -auto-approve  --to destroy the infrastructure.
+// It is a good practice to maintain a separate workspace for each terraform code.
+
+
 /* Specify the provider to interact the resources supported and configure it proper credentials before use. */ 
 /*   To configure: aws configure --profile profilename */
 
@@ -236,6 +245,3 @@ viewer_certificate {
   }
 }
 /*******************************************************************************************************************************/
-
-
-
